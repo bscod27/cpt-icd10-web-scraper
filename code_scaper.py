@@ -8,9 +8,9 @@ def code_scraper(df: pd.DataFrame, code_type: str, col_name: str) -> pd.DataFram
     """
     Takes a Pandas DataFrame with CPT or ICD-10 codes as input and outputs a pandas data frame containing the codes and their respective descriptions/summaries.
     
-    @param df: 
-    @param code_type: 
-    @param col_name: 
+    :param df: 
+    :param code_type: 
+    :param col_name: 
     """
     
     code = []
