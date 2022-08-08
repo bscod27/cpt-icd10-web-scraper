@@ -6,8 +6,7 @@ import regex as re
 
 def code_scraper(df: pd.DataFrame, code_type: str, col_name: str) -> pd.DataFrame:
     """
-    Takes a pandas data frame with CPT or ICD-10 codes as input and 
-    outputs a pandas data frame containing the codes and their respective descriptions/summaries.
+    Takes a Pandas DataFrame with CPT or ICD-10 codes as input and outputs a pandas data frame containing the codes and their respective descriptions/summaries.
     
     @param df: 
     @param code_type: 
