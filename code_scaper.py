@@ -46,4 +46,5 @@ def code_scraper(df: pd.DataFrame, code_type: str, col_name: str) -> pd.DataFram
     else:
         raise SyntaxError("Invalid code_type provided. Must be either 'cpt' or 'icd10'.")
 
+                
     return pd.DataFrame({'code':code, 'summary': summary})
